@@ -14,6 +14,7 @@
 		5F36A8261C713A1300AD43F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F36A8251C713A1300AD43F6 /* Images.xcassets */; };
 		5F36A8291C713A1300AD43F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F36A8271C713A1300AD43F6 /* LaunchScreen.xib */; };
 		5F36A8351C713A1300AD43F6 /* StreamTest_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F36A8341C713A1300AD43F6 /* StreamTest_iOSTests.m */; };
+		5F36A8401C713A6B00AD43F6 /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F36A83F1C713A6B00AD43F6 /* AVPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5F36A82E1C713A1300AD43F6 /* StreamTest_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTest_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F36A8331C713A1300AD43F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F36A8341C713A1300AD43F6 /* StreamTest_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamTest_iOSTests.m; sourceTree = "<group>"; };
+		5F36A83E1C713A6B00AD43F6 /* AVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
+		5F36A83F1C713A6B00AD43F6 /* AVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5F36A81F1C713A1300AD43F6 /* ViewController.h */,
 				5F36A8201C713A1300AD43F6 /* ViewController.m */,
 				5F36A8221C713A1300AD43F6 /* Main.storyboard */,
+				5F36A83E1C713A6B00AD43F6 /* AVPlayerViewController.h */,
+				5F36A83F1C713A6B00AD43F6 /* AVPlayerViewController.m */,
 				5F36A8251C713A1300AD43F6 /* Images.xcassets */,
 				5F36A8271C713A1300AD43F6 /* LaunchScreen.xib */,
 				5F36A8181C713A1300AD43F6 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				5F36A8211C713A1300AD43F6 /* ViewController.m in Sources */,
 				5F36A81E1C713A1300AD43F6 /* AppDelegate.m in Sources */,
+				5F36A8401C713A6B00AD43F6 /* AVPlayerViewController.m in Sources */,
 				5F36A81B1C713A1300AD43F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
